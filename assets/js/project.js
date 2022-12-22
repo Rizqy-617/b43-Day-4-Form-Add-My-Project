@@ -69,13 +69,13 @@ for (let index = 0; index < data.length; index++) {
                 <h3>${data[index].projectName}</h3>
             </div>
             <div class="card-text">
-                <p>${data[index.description]}</p>
+                <p>${data[index].description}</p>
             </div>
             <div class="tech_icon">
-                <img src="${data[index].nodeJSImg}" alt="nodejs icon">
-                <img src="${data[index].reactJSImg}" alt="reactjs icon">
-                <img src="${data[index].nextJSImg}" alt="nextjs icon">
-                <img src="${data[index].typeScriptImg}" alt="typescript icon">
+                <img src="${data[index].nodeJSImg}">
+                <img src="${data[index].reactJSImg}">
+                <img src="${data[index].nextJSImg}">
+                <img src="${data[index].typeScriptImg}">
             </div>
             <div class="btn-card">
                 <button>Edit</button>

@@ -8,3 +8,4 @@
     - fix typo from ${data[index.description]} => ${data[index].description}
     - Menambah max-width dan overflow ke div card-text
     - Change font family to open sans
+    - Adding card to project detail
